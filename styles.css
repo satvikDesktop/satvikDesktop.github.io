@@ -9,7 +9,7 @@ body {
 }
 
 #console {
-	font-family: 'VT323', monospace;
+	font-family: Arial, Helvetica, sans-serif, monospace;
 	color: #fff;
 	width:60%;
 	margin-left:auto;
