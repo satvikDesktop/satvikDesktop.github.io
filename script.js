@@ -108,3 +108,7 @@ var Typer = {
       clearInterval(timer);
     }
   }
+
+
+
+  

@@ -1,5 +1,8 @@
 
 
+
+
+
 :root {
 	background-color: #000 !important;
 }
@@ -8,13 +11,34 @@ body {
 	background-color: #000
 }
 
+
+
+
+
+.heading {
+	font-size: 200%;
+	text-shadow: 4px 4px 0px #bf3f3f;
+	mix-blend-mode: screen;
+	animation: fadeIn 2.5s linear forwards;
+  }
+  
+  @keyframes fadeIn {
+	  0% {
+		  opacity: 0
+	  }
+  
+	  100% {
+		  opacity: 1;
+	  }
+  }
+
 #console {
 	font-family: 'courier', monospace;
 	color: #fff;
-	width:60%;
+	width:80%;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:40px;
+	margin-top:0px;
 	margin-bottom:40px;
 	font-size:15.5px;
     overflow-wrap: normal;
@@ -23,6 +47,8 @@ body {
 a {
 	color: #0bc;
 	text-decoration: none;
+	font-family: 'courier', monospace;
+
 }
 
 
@@ -59,3 +85,25 @@ a {
     	50% { color:  #0f0; }
     	99% { color: black; }
 }
+.glow {
+	color: #fff;
+	-webkit-animation: glow 5s ease-in-out infinite alternate;
+	-moz-animation: glow s5 ease-in-out infinite alternate;
+	animation: glow 5s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+	from {
+	  text-shadow:   0 0 20px rgb(255, 99, 27), 0 0 30px #ff5410  ;
+	}
+	to {
+	  text-shadow:  0 0 30px #ee5151, 0 0 40px #ee5151, 0 0 50px;
+	}
+  }
+  * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+  }
+  
+ 

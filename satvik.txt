@@ -1,4 +1,7 @@
+
+   
 <div align = "center"><span id="title">"satvik"</span></div>
+
 
                           
 <span id="a">cmd</span>:<span id="b">~</span><span id="c">$</span> cd ninja.satvik/<!-- laglaglaglaglaglag -->me
@@ -9,7 +12,7 @@
 <span id="a">></span> I have made  <span id="y">2D and 3D games</span>  of different genres , 
 <span id="a">></span> I do competitive programming using <span id="y">C++ and Java </span> 
 <span id="a">></span> and I am regular contributor to <span id="y">open source projects</span> </p> <!-- bitlagbitlagbitlagbitlagbitlagbitlag -->
-<span id="a">></span>  I have published <span id="y">2 games</span> to itch.io : <a href="https://satvikdesktop.itch.io/" target="_blank">My itch.io game page</a> 
+<span id="a">></span>  I have published <span id="y">2 games</span> to itch.io : <a href="https://satvikdesktop.itch.io/" target="_blank">itch.io game page</a> 
 <span id="a">></span>  Checkout my projects and open source contributions on : <a href="https://github.com/satvikDesktop" target="_blank"> GitHub </a>
 <span id="a">></span>  I also make <span id="y">mixed media art</span> (2D , 3D and digital , traditional mediums): <a href="https://www.artstation.com/satvikdesktop" target="_blank"> Artstation </a>  ,  <a href="https://www.deviantart.com/satvikdesktop" target="_blank"> DeviantArt</a>
 </p><!-- delaydelaydelaydelaydelaydelaydelay -->
@@ -18,7 +21,7 @@
  <a href="https://www.facebook.com/profile.php?id=100071838253415" target="_blank"> Facebook </a>
  <a href="https://www.instagram.com/satvik_desktop/ " target="_blank"> Instagram </a>
  <a href="https://www.youtube.com/channel/UCSUm6xRVqrQsV3DE1Qg0ocg " target="_blank" > YouTube </a>
-  <a href="https://bio.link/satvik" target="_blank"> All my links </a>
+  <a href="https://bio.link/satvik" target="_blank"> other links</a>
  </p><!-- moredelaymoredelaymoredelaymoredelaymoredelaymoredelay-->
 <span id="a">></span> <!-- slightdelayhere-->feel free to send me an email : <!-- longlonglongcomment --><a href=mailto:"satviksingh2304@gmail.com"> Mail me </a>
 
