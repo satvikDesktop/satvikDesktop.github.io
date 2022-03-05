@@ -43,39 +43,6 @@ h1{
     transform: scale(1.08);
   }
   
-  .card__link,
-  .card__exit,
-  .card__icon {
-    position: relative;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.9);
-  }
-  
-  .card__link::after {
-    position: absolute;
-    top: 25px;
-    left: 0;
-    content: "";
-    width: 0%;
-    height: 3px;
-    background-color: rgba(255, 255, 255, 0.6);
-    transition: all 0.5s;
-  }
-  
-  .card__link:hover::after {
-    width: 100%;
-  }
-  
-  .card__exit {
-    grid-row: 1/2;
-    justify-self: end;
-  }
-  
-  .card__icon {
-    grid-row: 2/3;
-    font-size: 30px;
-  }
-  
   .card__title {
     grid-row: 3/4;
     font-weight: 400;
@@ -168,24 +135,23 @@ p{
   border: 3px solid #4e5c6b;
 }
 /* Gradient Animation */
+
+/*  https://www.linkpicture.com/q/istockphoto-1034202268-170667a.jpg */
+
 body {
-	background: linear-gradient(-45deg, #595e6e,#22272e);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
+	background: url(https://www.linkpicture.com/q/366-3664045_graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-size: 200%;
+  backdrop-filter: blur(20px);
+}
+@media only screen and (max-width: 600px) {
+  body{
+    background-repeat: no-repeat;
+    background-size: 700%;
+    backdrop-filter: blur(30px); 
+}
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
 #type{
   color:#ffffff;
   font-family: 'Roboto Mono', sans-serif;
@@ -225,7 +191,7 @@ a:hover {
   font-family: 'Roboto Mono', sans-serif;
   font-size: 1vw;
   text-decoration: underline;
-  color:#b1b1b1;
+  color:#d3d3d3;
 }
 @media only screen and (max-width: 600px) {
   .code{
@@ -234,5 +200,5 @@ a:hover {
 }
 
 .copyright{
-  color:#b1b1b1;
+  color:#d3d3d3;
 }
