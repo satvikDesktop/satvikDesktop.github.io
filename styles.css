@@ -1,7 +1,5 @@
 
 @import 
-url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
-@import 
 url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 @import
 url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@700&display=swap');
@@ -135,9 +133,8 @@ p{
   border: 3px solid #221c1b;
 }  
 /* 
-Background Img Links
-https://www.linkpicture.com/q/istockphoto-1034202268-170667a.jpg 
-https://www.linkpicture.com/q/366-3664045_graphic-design.jpg     
+Extra Background Img Links
+https://www.linkpicture.com/q/istockphoto-1034202268-170667a.jpg      
 */
 
 body {
