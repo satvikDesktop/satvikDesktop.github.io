@@ -126,17 +126,19 @@ p{
 }
 
 *::-webkit-scrollbar-track {
-  background:#29323b;
+  background:#221c1b;
 }
 
 *::-webkit-scrollbar-thumb {
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
-  border: 3px solid #4e5c6b;
-}
-/* Gradient Animation */
-
-/*  https://www.linkpicture.com/q/istockphoto-1034202268-170667a.jpg */
+  border: 3px solid #221c1b;
+}  
+/* 
+Background Img Links
+https://www.linkpicture.com/q/istockphoto-1034202268-170667a.jpg 
+https://www.linkpicture.com/q/366-3664045_graphic-design.jpg     
+*/
 
 body {
 	background: url(https://www.linkpicture.com/q/366-3664045_graphic-design.jpg);
