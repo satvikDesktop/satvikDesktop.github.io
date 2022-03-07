@@ -347,16 +347,19 @@ body {
 }
 #navbar-toggle[aria-expanded="true"] + #navbar-menu {
   background-color: rgb(255, 255, 255);
-
-  height: 19%;
+  height: 50%;
   width: 95%;
   opacity: 1;
   visibility: visible;
   border-radius: 40px;
   margin-left: 10px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #000000;
 }
+
+
 .navbar-links {
-  
   list-style: none;
   position: absolute;
   background-color: var(--navbar-bg-color);
@@ -368,8 +371,29 @@ body {
   margin: 1.2rem;
   border-radius: 5px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0);
-
 }
+@media only screen and (max-width: 600px) {
+  .navbar-links {
+    font-size:x-large;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    list-style: none;
+    position: absolute;
+    background-color: var(--navbar-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+    right: 0;
+    margin: 1.2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+  }
+ }
+ 
 
 #navbar-toggle[aria-expanded="true"] + #navbar-menu .navbar-links {
   padding: 0.4em;
