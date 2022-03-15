@@ -138,11 +138,12 @@ p{
 }  
 /* 
 Extra Background Img Links
-https://www.linkpicture.com/q/istockphoto-1034202268-170667a.jpg      
+https://www.linkpicture.com/q/istockphoto-1034202268-170667a.jpg   
+https://tabbied.com/   
 */
 
 body {
-	background: url(https://www.linkpicture.com/q/Untitled_386.png);
+	background: url(https://i.ibb.co/LY6Hgbk/1647352464944.png);
   background-repeat: no-repeat;
   background-size: 100%;
   width:100%;
@@ -151,9 +152,9 @@ body {
 }
 @media only screen and (max-width: 600px) {
   body{
-    background: url(https://www.linkpicture.com/q/Untitled_386.png);
+
     background-repeat: no-repeat;
-    background-size: 500%;
+    background-size: 550%;
 }
 }
 
@@ -312,7 +313,7 @@ body {
   height: 2px;
   margin: 2px;
   border-radius: 2500px;
-  background-color: rgb(58, 58, 73);
+  background-color: rgb(202, 202, 202);
 }
 #navbar-toggle:is(:focus, :hover) .icon-bar {
   background-color: rgb(255, 255, 255);

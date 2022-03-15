@@ -1,6 +1,6 @@
 var i = 0;
-var txt = 'I build things on the internet';
-var speed = 50;
+var txt = 'I break things on the internet';
+var speed = 100;
 
 function typeWriter() {
   if (i < txt.length) {
