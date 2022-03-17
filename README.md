@@ -11,7 +11,8 @@
 
 ## Credits 
 #### Background gif :
-
+Pixel art by [waneella](https://twitter.com/waneella_)
+<br>
 <img src="https://user-images.githubusercontent.com/11095731/136881424-89ef97ea-51eb-4910-9d86-9ccd2e77fcf0.gif" width="500" height="200" />
 
 
