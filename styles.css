@@ -1,8 +1,6 @@
-
+/* Import fonts */
 @import 
 url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-@import
-url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@700&display=swap');
 @import 
 url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap');
 
@@ -21,6 +19,7 @@ h1{
     margin-top: 0%;
 }
 }
+/*  Cards Styling*/
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -119,27 +118,30 @@ p{
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
   border: 3px solid #221c1b;
-}  
-/* 
-Extra Background Img Links
-https://www.linkpicture.com/q/istockphoto-1034202268-170667a.jpg   
-https://tabbied.com/   
-*/
+} 
+
+/* Background  GIF  fixed*/
+
 html {
-  background: url(https://user-images.githubusercontent.com/11095731/136881424-89ef97ea-51eb-4910-9d86-9ccd2e77fcf0.gif) no-repeat center center fixed; 
+  background: url(https://www.linkpicture.com/q/laptop_2.gif) no-repeat ; 
   
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-
+@media only screen and (max-width: 600px) {
+  html{
+  background: url(https://www.linkpicture.com/q/laptop_2.gif) no-repeat center center fixed; 
+  }
+}
+/* Subheading typing style*/
 #type{
   color:#bebebe;
   font-family: 'JetBrains Mono', monospace;
   font-size: 1.5vw;
   margin-left: 37%;
-  margin-top: -2%;
+  margin-top: -2%;  
 }
 @media only screen and (max-width: 600px) {
   #type{
@@ -148,7 +150,7 @@ html {
       margin-left: 4vw;
 }
 }
-
+/* Links  */
 a, a:hover, a:focus, a:active,a:visited {
   text-decoration: none;
 
@@ -167,6 +169,7 @@ a:hover {
   text-decoration: none;
   color:rgb(255, 30, 0);
 }
+/* Footer  */
 .code{
   font-family: 'Roboto Mono', sans-serif;
   font-size: 1vw;
@@ -183,6 +186,7 @@ a:hover {
 .copyright{
   color:#d3d3d3;
 }
+/* Navbar CSS */
 #navbar{
   text-align: right;
 }
