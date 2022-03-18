@@ -19,6 +19,12 @@ h1{
     margin-top: 0%;
 }
 }
+
+#dot{
+  color:white;
+  display: inline;
+}
+
 /*  Cards Styling*/
 .cards {
     display: flex;
@@ -27,9 +33,9 @@ h1{
   }
   
   .card {
-    backdrop-filter: blur(10px) saturate(200%);
-    -webkit-backdrop-filter: blur(10px) saturate(200%);
-    background-color: rgba(17, 16, 24, 0.44);
+    backdrop-filter: blur(20px) saturate(200%);
+    -webkit-backdrop-filter: blur(20px) saturate(200%);
+    background-color: rgba(0, 0, 0, 0.44);
     border: 1px solid rgba(255, 255, 255, 0.125);
     margin: 20px;
     padding: 20px;
@@ -137,7 +143,7 @@ html {
 }
 /* Subheading typing style*/
 #type{
-  color:#bebebe;
+  color:#e2e2e2;
   font-family: 'JetBrains Mono', monospace;
   font-size: 1.5vw;
   margin-left: 37%;
@@ -152,30 +158,18 @@ html {
 }
 /* Links  */
 a, a:hover, a:focus, a:active,a:visited {
+  color:rgb(255, 255, 255);
   text-decoration: none;
 
 }
-a:hover {
-  opacity: 0.3;
-}
 
-.projG{
- 
-  text-decoration: none;
-  color:rgb(25, 0, 255);
-}
-.projL{
-  
-  text-decoration: none;
-  color:rgb(255, 30, 0);
-}
 /* Footer  */
 .code{
   font-family: 'Roboto Mono', sans-serif;
   font-size: 1vw;
   text-decoration: underline;
   color:#d3d3d3;
-  margin-top: 180%;
+  margin-top: 190%;
 }
 @media only screen and (max-width: 600px) {
   .code{
@@ -185,6 +179,7 @@ a:hover {
 
 .copyright{
   color:#d3d3d3;
+  
 }
 /* Navbar CSS */
 #navbar{
@@ -192,8 +187,88 @@ a:hover {
 }
 #navbar-link{
   font-family: 'Roboto Mono', sans-serif;
-  color:rgb(207, 207, 207) ;
+  color:rgb(255, 255, 255) ;
 }
-#navbar-link:hover{
-  opacity:0.3;  
+
+img {
+  opacity: 0.6;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
 }
+img:hover {
+  opacity: 1;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}​
+{}
+@media only screen and (max-width: 600px) {
+  img{
+    opacity: 1;
+  }
+  img:hover{
+    opacity: 1;
+  }
+}
+
+.slide-in-out 
+{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    display: inline-block;
+    position: relative; /* prepare the position for sliding in and out */
+}
+/* add a empty string before the elment with class .slide-in-out  */
+.slide-in-out:before 
+{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    transition: width 0s ease, background-color .5s ease;
+    -webkit-transition: width 0s ease, background-color .5s ease;
+    -moz-transition: width 0s ease, background-color .5s ease;
+     
+    /* position the content to the left bottom corner of the parent element to make it to slide in from left to right on hover */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+/* add a empty string after the elment with class .slide-in-out  */
+.slide-in-out:after 
+{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background: rgb(255, 255, 255);
+    transition: width .5s ease;
+    -webkit-transition: width .5s ease, background-color .5s ease;
+    -moz-transition: width .5s ease, background-color .5s ease;
+     
+    /* position the content to the left bottom corner of the parent element to make it to slide out from left to right on hover */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+ 
+/* Change the width and background on hover, aka sliding in and out */
+.slide-in-out:hover:before 
+{
+    width: 100%;
+    background: rgb(255, 255, 255);
+    transition: width .5s ease;
+    -webkit-transition: width .5s ease;
+    -moz-transition: width .5s ease;
+}
+.slide-in-out:hover:after 
+{
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+    -webkit-transition: width 0s ease;
+    -moz-transition: width .0s ease;
+}
+
+
