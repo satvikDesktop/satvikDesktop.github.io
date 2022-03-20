@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'I break things on the internet';
+var txt = 'I make memes and software';
 var speed = 100;
 
 function typeWriter() {

@@ -9,13 +9,12 @@ h1{
     color:#ffffff;
     font-family: 'JetBrains Mono', monospace;
     font-size: 7vw;
-    margin-left: 40%;
+    text-align: center;
     margin-top: -0.3%;
 }
 @media only screen and (max-width: 600px) {
 h1{
     font-size: 20vw;
-    margin-left: 15%;
     margin-top: 0%;
 }
 }
@@ -146,14 +145,13 @@ html {
   color:#e2e2e2;
   font-family: 'JetBrains Mono', monospace;
   font-size: 1.5vw;
-  margin-left: 37%;
+  text-align: center;
   margin-top: -2%;  
 }
 @media only screen and (max-width: 600px) {
   #type{
       font-size: 5vw;
       margin-top: -3.5%;
-      margin-left: 4vw;
 }
 }
 /* Links  */
