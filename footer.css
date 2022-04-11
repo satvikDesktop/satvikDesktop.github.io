@@ -1,0 +1,34 @@
+#footer-links{
+    text-decoration: none;
+}
+#footer-img{
+    margin-top: 3%;
+}
+#footer-img:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    opacity: 0.5;
+}
+#credit{
+    text-decoration: none;
+    color: white;
+    transition: background .2s cubic-bezier(.33,.66,.66,1);
+    border-bottom: 3px solid #fffb1f;
+}
+#credit:hover{
+    color: #202124;
+    background-color: #fffb1f;
+}
+#credits{
+    display: inline;
+    margin-top: -10%;
+}
+@media only screen and (max-width: 600px) {
+    #credits{
+        margin-top: -10%;
+    }
+}

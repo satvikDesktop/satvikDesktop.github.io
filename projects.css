@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+#mainH{
+    font-family: 'Roboto Mono', monospace;
+    color: inherit;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+p{
+    color: rgb(173, 173, 173);
+    font-family: 'JetBrains Mono', monospace;
+}
+#projT{
+    font-family: 'Roboto Mono', monospace;
+    color: inherit;
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+}
+
+#github{
+    font-family: 'JetBrains Mono', monospace;
+    text-decoration: none;
+    color: white;
+    transition: background .2s cubic-bezier(.33,.66,.66,1);
+    border-bottom: 3px solid #05209b;
+}
+#github:hover{
+    background-color:#05209b;
+}
+#live{
+    font-family: 'JetBrains Mono', monospace;
+    text-decoration: none;
+    color: white;
+    transition: background .2s cubic-bezier(.33,.66,.66,1);
+    border-bottom: 3px solid #ff4b4b;
+}
+#live:hover{
+    color: #202124;
+    background-color: #ff4b4b;
+}
+#point{
+    color: #ffffff; 
+}
+ul {
+    list-style-image: url('img/folder.png');
+    padding-left:50px;    
+    background-color:#100f1365;
+  }

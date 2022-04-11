@@ -1,197 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="scrollbar.css">
     <title>satvik</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="satvikDesktop.github.io\icons\favicon.png">
-  </head>
-  <body>
-    <!-- Header / Navbar-->
+</head>
+<body>
+    <div class="container">
+      <div id="navbar">
+        <a href="https://satvik.ninja/articles" target="blank">
+            <p id="navbar-link">Articles 📝 </p>&nbsp;&nbsp;&nbsp;
+        </a>
+        <a href="https://satvikdesktop.artstation.com/" target="blank">
+            <p id="navbar-link">Gallery 🖼️</p>&nbsp;</a>
+      </div>
+      <h1 id="name">satvik</h1>
+      
+      <div class="line-divide"></div>
+        <div class="projects">
+            <h2 id="mainH">WEB</h2> 
+            <p>vanilla CSS and Javascript web development projects</p>
+            <! --- Project List --->
+            <! --- Cat Pics --->
+            <ul>
+            <br>
+            <li><h3 id="projT">Cat Pics</h3> </li>
+            <a id="github" href="https://www.github.com/satvikDesktop/cat-pics" target="blank">Github</a>
+            <a id="live" href="https://satvik.ninja/cat-pics/" target="blank">Live</a>
+            <p>website that generates random cat images from an API</p>
+            <li><h3 id="projT">JavaScript</h3> </li>
+            <a id="github" href="https://github.com/satvikDesktop/Javascript_Projects" target="blank">Github</a>
+            <p>projects made for learning JavaScript</p>
+            <li><h3 id="projT">Personal website</h3> </li>
+            <a id="github" href="https://github.com/satvikDesktop/satvikDesktop.github.io" target="blank">Github</a>
+            <p>this website </p>
+            <br>
+            <br>
+            </ul>
+        </div> 
+        <div class="line-divide"></div>
+        <div class="games">
+            <h2 id="mainH">GAMES</h2>
+            <p>games created with Java , Python and C# in unity</p>
+            <ul>
+            <br>
+            <! --- Pong --->
+            <li><h3 id="projT">Pong</h3></li>
+            <a id="github" href="https://github.com/satvikDesktop/Pong" target="blank">Github</a>&nbsp;&nbsp;&nbsp;
+            <a id="live" href="https://satvikdesktop.itch.io/totally-accurate-pong" target="blank">Live</a>
+            <p>retro arcade pong made using Python turtle module</p>
+            <! --- Snake --->
+            <li><h3 id="projT">Snake</h3></li>
+            <a id="github" href="https://github.com/satvikDesktop/SnakeGame" target="blank">Github</a>
+            <p>classic snake game created using Java</p>
+            <! --- F1 CUBE--->
+            <li><h3 id="projT">F1 Cube</h3></li>
+            <a id="github" href="https://github.com/satvikDesktop/F1_CUBE" target="blank">Github</a>&nbsp;&nbsp;&nbsp;
+            <a id="live" href="https://satvikdesktop.itch.io/f1-cube" target="blank">Live</a>
+            <p>fast paced racing game</p>
+            <br>
+            </ul>
+        </div>
+        <div class="line-divide"></div>
+        <div class="code">
+            <h2 id="mainH">CODE</h2>
+            <p>data structures and algorithms in Java, Android app with Kotlin</p>
+            <! --- Java--->
+            <ul>
+            <br>
+            <li><h3 id="projT">Java</h3></li>
+            <a id="github" href="https://www.github.com/satvikDesktop/JavaPrograms" target="blank">Github</a>
+            <p>algorithms and data structures in java</p>
+            <! --- Android App --->
+            <li><h3 id="projT">Android App</h3></li>
+            <a id="github" href="https://github.com/satvikDesktop/TodoApp" target="blank">Github</a>
+            <p>todo list app made using Kotlin in Android Studio</p>
+            <br>
+            <br>
+            </ul>
+            <div class="line-divide"></div>
+            <br>
+            <div class="footer">
 
-    <div id="navbar">
-    <div class="slide-in-out ">
-     <a id="navbar-link" href="https://dev.to/satvik" target="blank">Articles</a>
-    </div>
-
-     &nbsp;<div id="dot">•</div>&nbsp;
-     
-     <div class="slide-in-out ">
-     <a id="navbar-link" href="https://satvikdesktop.artstation.com/" target="blank">Gallery</a>
-    </div>
-    </div>
-
-    <br> 
-    <h1>satvik</h1>
-    <h3></h3>
-    <p id="type"></p>
-
-    <!-- Projects Cards -->
-    <br><br>
-    <div class="cards">
-      <div class="card card-1">
-        
-        <h2 class="card__title">Cat Pics</h2>
-        <p class="card__para" >website that generates random cat images from an API 
-          <br>
-          <br>  
-
-          <a  href="https://www.github.com/satvikDesktop/cat-pics" target="blank">
-          <img id="hover" alt="Github" src="https://www.linkpicture.com/q/GitHub-Mark_1.png"
-          width=40" height="38">
-           </a>
-            &nbsp; 
-            <a href="https://satvik.ninja/cat-pics/" target="blank">
-              <img id="hover" alt="Live" src="https://www.linkpicture.com/q/images_256.png "
-              width=30" height="33">
+            <a id="footer-links" href="mailto:satviksingh2304@gmail.com" target="blank">  
+            <img id="footer-img" src="https://www.linkpicture.com/q/mail_16.png" height="18px" width="18px" />
+            </a>  
+            
+            &nbsp;&nbsp;&nbsp;
+            <a id="footer-links" href="https://github.com/satvikDesktop" target="blank">   
+            <img id="footer-img" src="https://www.linkpicture.com/q/github_7.png" height="24px" width="24px" />
+            </a>  
+            &nbsp;&nbsp;&nbsp;
+            <a id="footer-links" href="https://twitter.com/DesktopSatvik" target="blank"> 
+            <img id="footer-img" src="https://www.linkpicture.com/q/twitter_17.png" height="20px" width="20px" />
             </a> 
-          
-                            
-        </p>
-        
-      </div>
-
-      <div class="card card-2">
-       
-        <h2 class="card__title">Android App<i class="fa fa-apple" aria-hidden="true"></i></h2>
-        <p class="card__para" >todo list app made using Kotlin in Android Studio
-          <br>
-          <br>  
-  
-          <a  href="https://www.github.com/satvikDesktop/TodoApp" target="blank">
-            <img id="hover" alt="Github" src="https://www.linkpicture.com/q/GitHub-Mark_1.png"
-            width=40" height="38">
-             </a>
-              &nbsp; 
-              <a href="https://appsenjoy.com/DMstw" target="blank">
-                <img id="hover" alt="Download APK" src="https://www.linkpicture.com/q/images_256.png "
-                width=30" height="33">
-              </a> 
-        </p>
-        
-        
-        
-      </div>
-      <div class="card card-3">
-       
-        <h2 class="card__title">Java</h2>
-        <p class="card__para" >algorithms and data structures in java
-          <br>
-          <br>  
-
-          <a  href="https://www.github.com/satvikDesktop/JavaPrograms" target="blank">
-            <img id="hover" alt="Github" src="https://www.linkpicture.com/q/GitHub-Mark_1.png"
-            width=40" height="38">
-             </a>
-             
-      
-        </p>
-      </div>
-      <div class="card card-4">
-        
-        <h2 class="card__title">F1 CUBE</h2>
-        <p class="card__para"> fast paced racing/arcade game created in Unity with C#
-          <br>
-          <br>  
-          <a  href="https://www.github.com/satvikDesktop/F1_CUBE" target="blank">
-            <img id="hover" alt="Github" src="https://www.linkpicture.com/q/GitHub-Mark_1.png"
-            width=40" height="38">
-             </a>
-              &nbsp; 
-              <a href="https://satvikdesktop.itch.io/f1-cube" target="blank">
-                <img id="hover" alt="Download" src="https://www.linkpicture.com/q/images_256.png "
-                width=30" height="33">
-              </a> 
-
-        </p>
-       
-      </div>
-      <div class="card card-5">
-       
-        <h2 class="card__title">Pong</h2>
-        <p class="card__para" > retro Atari pong made using Python turtle module
-          <br>
-          <br>  
-          <a  href="https://www.github.com/satvikDesktop/Pong" target="blank">
-            <img id="hover" alt="Github" src="https://www.linkpicture.com/q/GitHub-Mark_1.png"
-            width=40" height="38">
-             </a>
-              &nbsp; 
-              <a href="https://satvikdesktop.itch.io/totally-accurate-pong" target="blank">
-                <img id="hover" alt="Download" src="https://www.linkpicture.com/q/images_256.png "
-                width=30" height="33">
-              </a> 
-        </p>
-       
-      </div>
-      <div class="card card-6">
-        
-        <h2 class="card__title">Snake</h2>
-        <p class="card__para" >classic snake game   created using Java 
-          <br>
-          <br>  
-          <a  id ="git-icon" href="https://www.github.com/satvikDesktop/SnakeGame" target="blank">
-          <img alt="Github" src="https://www.linkpicture.com/q/GitHub-Mark_1.png"
-          width=40" height="40">
-          
-
-          </a> 
-        
-
-        </p>
-      
-      </div>
+            &nbsp;&nbsp;&nbsp; 
+            <a id="footer-links" href="https://www.instagram.com/satvikctrl/" target="blank"> 
+            <img id="footer-img" src="https://www.linkpicture.com/q/instagram_41.png" height="20px" width="20px" />
+            </a>  
+            &nbsp;&nbsp;&nbsp;
+            <a id="footer-links" href="https://www.artstation.com/satvikdesktop" target="blank"> 
+            <img id="footer-img" src="https://www.linkpicture.com/q/artstation_3.png" height="20px" width="20px" />
+            </a>
+            &nbsp; &nbsp;<br>
+            <br>
+             <p id="credits">Inspired by <a id="credit" href="https://github.com/athul/archie" target="blank">Archie theme ⚡ </a></p>
+            </div>
+              <br>
+              <br>
+            </div>
+        </div>
     </div>
-
-    <br>
-    <br>
-    <br>
-    <br>  
-
-  <!-- Image Links -->
-    <center>
-    <a  href="https://www.github.com/satvikDesktop" target="blank">
-      <img class="icon" alt="Github" src="https://www.linkpicture.com/q/github_4.png"
-      width=40" height="40">
-    </a>
-    &nbsp;
-    <a  href="https://twitter.com/DesktopSatvik" target="blank">
-      
-        <img class="icon"  alt="Twitter" src="https://www.linkpicture.com/q/twitter_35.png"
-        width=40" height="40">
-    </a>
-    &nbsp;
-    <a  href="https://www.facebook.com/profile.php?id=100071838253415" target="blank">
-        <img class="icon"  alt="Facebook" src="https://www.linkpicture.com/q/facebook_40.png"
-        width="40" height="40">
-    </a>
-    
-    &nbsp;
-    <a  href="https://www.artstation.com/satvikdesktop" target="blank">
-        <img class="icon"  alt="ArtStation" src="https://www.linkpicture.com/q/artstation_1.png"
-        width="40" height="40">
-    </a>
-    &nbsp;
-    <a  href="https://www.instagram.com/satvikctrl/" target="blank">
-        <img class="icon"  alt="ArtStation" src="https://www.linkpicture.com/q/instagram_19.png"
-        width="40" height="40">
-      </a>
-      </center>
-      <br><br><br>
-      <br>
-      <center>
-      <br>
-     <!-- Footer -->
-     <br>
-    <p class="copyright"> Ⓒ Satvik 2022</p>
-    <a class="code" href="https://github.com/satvikDesktop/satvikDesktop.github.io" target="blank">source code</a>
-    &nbsp;
-    <a class="code" href="https://twitter.com/waneella_" target="blank">bg art</a>
-    </center>
-    <br>
-    <br>
-    <script src="typewriter.js"></script>
-  </body>
+    <script src="color.js"></script>
+</body>
 </html>
