@@ -1,15 +1,13 @@
-:root {
-    --nav-light:'';
-}
+
 #navbar-link{
     display:inline;
     color: white;
     transition: background .2s cubic-bezier(.33,.66,.66,1);
-    border-bottom: 3px solid var(--nav-light);
+    border-bottom: 3px solid rgb(255, 255, 255)  ;
 }
 #navbar-link:hover{
-    color: #202124;
-    background-color: var(--nav-light);
+    color: var(--bgColor);
+    background-color: rgb(255, 255, 255) ;
 }
 #navbar{
     display: inline;

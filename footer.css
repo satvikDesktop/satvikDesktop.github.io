@@ -17,11 +17,11 @@
     text-decoration: none;
     color: white;
     transition: background .2s cubic-bezier(.33,.66,.66,1);
-    border-bottom: 3px solid #fffb1f;
+    border-bottom: 3px solid var(--randColor1);
 }
 #credit:hover{
-    color: #202124;
-    background-color: #fffb1f;
+    color: var(--bgColor);
+    background-color: var(--randColor1);
 }
 #credits{
     display: inline;

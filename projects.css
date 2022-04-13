@@ -22,27 +22,28 @@ p{
     text-decoration: none;
     color: white;
     transition: background .2s cubic-bezier(.33,.66,.66,1);
-    border-bottom: 3px solid #05209b;
+    border-bottom: 3px solid #6347ff;
 }
 #github:hover{
-    background-color:#05209b;
+    
+    background-color: #6347ff;
 }
 #live{
     font-family: 'JetBrains Mono', monospace;
     text-decoration: none;
     color: white;
     transition: background .2s cubic-bezier(.33,.66,.66,1);
-    border-bottom: 3px solid #ff4b4b;
+    border-bottom: 3px solid #ff4e4e;
 }
 #live:hover{
-    color: #202124;
-    background-color: #ff4b4b;
+    color: var(--bgColor);
+    background-color: #ff4e4e;
 }
 #point{
     color: #ffffff; 
 }
 ul {
     list-style-image: url('img/folder.png');
-    padding-left:50px;    
-    background-color:#100f1365;
+    padding-left:50px;  
+    background-color: rgb(14, 14, 19);  
   }
