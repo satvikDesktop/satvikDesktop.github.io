@@ -1,5 +1,5 @@
 :root{
- --bgColor: #131318;
+ --bgColor: #1d1d25;
  --randColor1:'';
  --randColor2:'';
 }
@@ -26,7 +26,7 @@ body{
     color: inherit;
     text-decoration: none;
     color:#ffffff;
-    background-color: rgb(14, 14, 19);
+    background-color: #131318;
 
  }
 
